@@ -36,6 +36,6 @@
              (kaocha-runner--testable-sym (cider-current-ns) nil nil)
              nil t original-buffer)))))))
 
-(add-hook 'cider-file-loaded-hook #'kaocha-runner-run-relevant-tests)
+;; (add-hook 'cider-file-loaded-hook #'kaocha-runner-run-relevant-tests)
 
 (provide 'setup-kaocha-runner)
